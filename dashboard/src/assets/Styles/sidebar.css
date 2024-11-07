@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    gap: 2.3rem;
+}
+
+.logo {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    color: #27374d
+
+}
+
+.logo-icon {
+    font-size: 1.4rem;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-list .item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #27374d;
+    font-size: 1.1rem;
+    font-weight: 600;
+    gap: 20px;
+    /*the gap puts space between the icons and the text */
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    padding: 18px;
+    /* has put space around the text as shown when you hover */
+
+}
+
+.menu-list a:hover {
+    color: #ffffff;
+    background-color: #27374d;
+}
