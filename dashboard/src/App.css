@@ -1,0 +1,18 @@
+.dashboard {
+    /* this is to align the two components of the dashboard */
+    display: flex;
+    gap: 20px;
+
+}
+/* this is to style the other side of the dashboard interface */
+.dashboard-content {
+    background: #ffffff;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    /* separates the two section by placing them at the end of each side of the page */
+
+}

@@ -8,7 +8,6 @@ import { BiStats } from "react-icons/bi";
 import { BiHelpCircle } from "react-icons/bi";
 // to import the sidebar css styling file
 import '../Styles/sidebar.css'
-// import { Link } from 'react-router-dom';
 
 
 
